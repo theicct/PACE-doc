@@ -132,7 +132,6 @@ def fix_math(doc):
             l = _fix_inline(l)
         l = l.replace(r"\[", r"$$")
         l = l.replace(r"\]", r"$$")  # display math
-        l = l.replace(r"AFLEET\ Ratio", "AFLEET Ratio")  # HACK: hard fix for this case
         doc[i] = l
 
     return doc
