@@ -13,10 +13,11 @@ import subprocess
 # version are parsed by pandoc as "media/imageX.emf", where X matches the order
 # the images appear in the document. The mapping starts with image2.emf because
 # the first image is the ICCT logo which is automatically removed.
+# FIXME: Not sure why but I can't find the 'image1.emf', so for now this starts at 1
 IMG_MAP = {
-    "media/image2.emf": "/PACE-doc/assets/ModelFlowchart.png",
-    "media/image3.emf": "/PACE-doc/assets/OperationalSegments.png",
-    "media/image4.emf": "/PACE-doc/assets/PropulsionAndFuel.png",
+    "media/image1.png": "/PACE-doc/assets/ModelFlowchart.png",
+    "media/image2.png": "/PACE-doc/assets/OperationalSegments.png",
+    "media/image3.png": "/PACE-doc/assets/PropulsionAndFuel.png",
 }
 
 DOC_RAW = "documentation_raw.md"
