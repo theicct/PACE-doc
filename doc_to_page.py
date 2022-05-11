@@ -14,7 +14,9 @@ import subprocess
 # the images appear in the document. The mapping starts with image2.emf because
 # the first image is the ICCT logo which is automatically removed.
 IMG_MAP = {
-
+    "media/image2.emf": "/PACE-doc/assets/ModelFlowchart.png",
+    "media/image3.emf": "/PACE-doc/assets/OperationalSegments.png",
+    "media/image4.emf": "/PACE-doc/assets/PropulsionAndFuel.png",
 }
 
 DOC_RAW = "documentation_raw.md"
